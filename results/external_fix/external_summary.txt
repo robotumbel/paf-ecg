@@ -1,0 +1,7 @@
+calibration threshold: 0.24
+
+              setting  n_patients  accuracy  macro_f1  se_MI  sp_MI  auroc
+ internal PTB-XL test        1322    0.9304    0.9100 0.8451 0.9617 0.9700
+   external zero-shot         138    0.8913    0.8741 0.8529 1.0000 0.9695
+external recalibrated         138    0.8986    0.8729 0.9118 0.8611 0.9695
+  external fine-tuned         138    0.9565    0.9436 0.9706 0.9167 0.9616

@@ -1,0 +1,7 @@
+wfdb==4.3.*
+PyWavelets==1.9.*
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib

@@ -1,0 +1,4 @@
+territory,beats,expected_leads,expected_mass,chance_mass,ratio,top3_leads,hit
+Anterior,2749,V1 V2 V3 V4,0.2906,0.3333,0.872,AVF AVL III,0
+Inferior,2580,II III AVF,0.3108,0.25,1.243,AVF AVL III,1
+LatPost,100,I AVL V5 V6,0.3135,0.3333,0.941,III AVF V6,1

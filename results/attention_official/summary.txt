@@ -1,0 +1,8 @@
+attention pooling, bag size 20, 3 seeds
+accuracy 0.9246 +/- 0.0084
+macro-F1 0.9050 +/- 0.0115
+AUROC    0.9650 +/- 0.0026
+
+against mean-posterior pooling, discordant patients pooled over seeds:
+  attention only correct 118 | PAF only correct 61 | McNemar p = 2.454e-05
+  PAF accuracy 0.9042

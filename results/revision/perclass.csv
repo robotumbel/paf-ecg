@@ -1,0 +1,17 @@
+task,method,cls,se,sp,prec,f1,support
+binary,PAF (mean),NORM,0.9305,0.8786,0.9542,0.9422,4838
+binary,PAF (mean),MI,0.8786,0.9305,0.8231,0.8499,1779
+binary,Majority vote,NORM,0.9332,0.8746,0.9529,0.943,4838
+binary,Majority vote,MI,0.8746,0.9332,0.8281,0.8507,1779
+binary,Single beat,NORM,0.925,0.8673,0.9499,0.9373,4838
+binary,Single beat,MI,0.8673,0.925,0.8095,0.8374,1779
+binary,Attention MIL,NORM,0.9436,0.8775,0.9544,0.949,4838
+binary,Attention MIL,MI,0.8775,0.9436,0.8511,0.8641,1779
+territory,PAF (mean),NORM,0.8812,0.9173,0.9666,0.9219,4830
+territory,PAF (mean),Anterior,0.8096,0.9334,0.6292,0.7081,809
+territory,PAF (mean),Inferior,0.8226,0.9408,0.6948,0.7533,930
+territory,PAF (mean),Lat./Post.,0.1316,0.9913,0.0806,0.1,38
+territory,Attention MIL,NORM,0.9106,0.8846,0.9555,0.9325,4830
+territory,Attention MIL,Anterior,0.7614,0.9577,0.7154,0.7377,809
+territory,Attention MIL,Inferior,0.8011,0.9364,0.6736,0.7318,930
+territory,Attention MIL,Lat./Post.,0.0789,0.9948,0.0811,0.08,38

@@ -1,0 +1,69 @@
+model,seed,comparison,paf_only_correct,other_only_correct,p
+CNN (ours),45,paf vs single,23,16,0.3367836351899315
+CNN (ours),45,paf vs vote,8,6,0.79052734375
+CNN (ours),46,paf vs single,24,20,0.651587827208914
+CNN (ours),46,paf vs vote,3,8,0.2265625
+CNN (ours),47,paf vs single,31,19,0.11892045255943628
+CNN (ours),47,paf vs vote,3,10,0.09228515625
+CNN (ours),48,paf vs single,28,7,0.0005082604475319386
+CNN (ours),48,paf vs vote,7,2,0.1796875
+CNN (ours),49,paf vs single,17,14,0.720100131817162
+CNN (ours),49,paf vs vote,6,7,1.0
+CNN-LSTM,45,paf vs single,21,8,0.0241195447742939
+CNN-LSTM,45,paf vs vote,5,3,0.7265625
+CNN-LSTM,46,paf vs single,31,14,0.016094360031274842
+CNN-LSTM,46,paf vs vote,9,5,0.4239501953125
+CNN-LSTM,47,paf vs single,26,17,0.2220528201560228
+CNN-LSTM,47,paf vs vote,6,4,0.75390625
+CNN-LSTM,48,paf vs single,25,14,0.10812902140605732
+CNN-LSTM,48,paf vs vote,3,4,1.0
+CNN-LSTM,49,paf vs single,19,13,0.37708558747544885
+CNN-LSTM,49,paf vs vote,3,6,0.5078125
+InceptionTime,45,paf vs single,13,14,1.0
+InceptionTime,45,paf vs vote,3,7,0.34375
+InceptionTime,46,paf vs single,18,24,0.44079906734259566
+InceptionTime,46,paf vs vote,4,11,0.11846923828124999
+InceptionTime,47,paf vs single,30,12,0.007915897334896727
+InceptionTime,47,paf vs vote,4,6,0.75390625
+InceptionTime,48,paf vs single,18,6,0.022655844688415527
+InceptionTime,48,paf vs vote,1,6,0.125
+InceptionTime,49,paf vs single,18,18,1.0
+InceptionTime,49,paf vs vote,3,10,0.09228515625
+ResNet1D,45,paf vs single,21,20,1.0
+ResNet1D,45,paf vs vote,2,4,0.6875
+ResNet1D,46,paf vs single,31,18,0.08543313315739454
+ResNet1D,46,paf vs vote,13,3,0.021270751953125
+ResNet1D,47,paf vs single,40,28,0.1818100545355934
+ResNet1D,47,paf vs vote,8,8,1.0
+ResNet1D,48,paf vs single,24,9,0.013530986849218607
+ResNet1D,48,paf vs vote,7,5,0.7744140625
+ResNet1D,49,paf vs single,22,12,0.12144948495551944
+ResNet1D,49,paf vs vote,1,4,0.375
+Transformer,45,paf vs single,24,17,0.34888887944907765
+Transformer,45,paf vs vote,8,6,0.79052734375
+Transformer,46,paf vs single,38,21,0.036343179957053884
+Transformer,46,paf vs vote,6,9,0.6072387695312499
+Transformer,47,paf vs single,23,16,0.3367836351899315
+Transformer,47,paf vs vote,1,3,0.625
+Transformer,48,paf vs single,30,13,0.0137181850586785
+Transformer,48,paf vs vote,7,8,1.0
+Transformer,49,paf vs single,30,16,0.054076031858869555
+Transformer,49,paf vs vote,6,5,1.0
+xresnet1d50,45,paf vs single,21,12,0.16275565745308995
+xresnet1d50,45,paf vs vote,4,3,1.0
+xresnet1d50,46,paf vs single,32,15,0.018623836615006432
+xresnet1d50,46,paf vs vote,6,4,0.75390625
+xresnet1d50,47,paf vs single,27,9,0.00393317302223295
+xresnet1d50,47,paf vs vote,1,2,1.0
+CNN (ours),pooled,paf vs single,123,76,0.0010593688888219184
+CNN (ours),pooled,paf vs vote,27,33,0.5189580031896519
+CNN-LSTM,pooled,paf vs single,122,66,5.36829518620384e-05
+CNN-LSTM,pooled,paf vs vote,26,22,0.6654658120766188
+InceptionTime,pooled,paf vs single,97,74,0.092203605365849
+InceptionTime,pooled,paf vs vote,15,40,0.0010158471941252854
+ResNet1D,pooled,paf vs single,138,87,0.0008197384117862531
+ResNet1D,pooled,paf vs vote,31,24,0.4187541882690154
+Transformer,pooled,paf vs single,145,83,4.8435447452771646e-05
+Transformer,pooled,paf vs vote,28,31,0.794843653982861
+xresnet1d50,pooled,paf vs single,80,36,5.400450526905096e-05
+xresnet1d50,pooled,paf vs vote,11,9,0.8238029479980469

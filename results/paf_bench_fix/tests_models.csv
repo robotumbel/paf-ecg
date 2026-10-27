@@ -1,0 +1,6 @@
+comparison,ref_only_correct,other_only_correct,mcnemar_p,delta_macro_f1,wilcoxon_p,n_splits
+CNN (ours) vs CNN-LSTM,201,226,0.24543052709294252,-0.0033,0.625,5
+CNN (ours) vs InceptionTime,302,275,0.27906565355902924,0.0029,1.0,5
+CNN (ours) vs ResNet1D,320,295,0.3331618438314307,0.0034,0.625,5
+CNN (ours) vs Transformer,282,267,0.5502090612356523,0.0026,1.0,5
+CNN (ours) vs xresnet1d50,123,187,0.00033107794393567863,-0.019,0.25,3

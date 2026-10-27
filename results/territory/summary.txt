@@ -1,0 +1,11 @@
+four-territory task, 5 seeds
+attention | accuracy 0.8721 +/- 0.0147 | macro-F1 0.6184 +/- 0.0159
+     mean | accuracy 0.8598 +/- 0.0139 | macro-F1 0.6237 +/- 0.0286
+  F1 NORM      mean 0.922 | attention 0.932
+  F1 Anterior  mean 0.708 | attention 0.738
+  F1 Inferior  mean 0.754 | attention 0.734
+  F1 LatPost   mean 0.111 | attention 0.070
+
+attention against mean pooling, discordant patients pooled:
+  attention only correct 411 | mean only correct 330 | McNemar p = 0.003267
+  Wilcoxon over seeds p = 1.0000

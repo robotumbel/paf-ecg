@@ -1,0 +1,3 @@
+cls,n_beats,aopc_gradcam,aopc_random,aopc_ratio,aopc_wilcoxon_p,faithfulness_corr_median,faithfulness_corr_pos_share,sanity_rand_spearman_median,stability_30db_median,stability_20db_median,gradcam_vs_ig_median
+MI,1000,0.13795726,0.033541974,4.1129737,0.0,0.6,0.812,0.1358816659924386,0.9995418062336694,0.995872322493599,0.19083055633396687
+NORM,1000,0.026357634,0.06302792,0.41818982,0.0,0.0,0.242,-0.13624561518098105,0.9996982953470468,0.99010363120476,-0.08953103590237475

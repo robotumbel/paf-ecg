@@ -1,0 +1,6 @@
+Random search over the PAF backbone, validated on held-out patients.
+space: {"k1": [7, 9, 11, 15], "k2": [9, 11, 13, 17], "k3": [3, 5, 7, 9], "filters": [64, 96, 128], "dense": [64, 128, 256], "dropout": [0.1, 0.2, 0.3, 0.4], "lr": [0.0003, 0.0005, 0.001, 0.002], "batch": [64, 128, 256]}
+budget: 24 configurations, up to 40 epochs each, early stopping patience 5
+validation macro-F1: best 0.8922, median 0.8712, worst 0.8489 (spread 0.0433)
+best configuration: {"k1": 9, "k2": 11, "k3": 7, "filters": 128, "dense": 128, "dropout": 0.3, "lr": 0.002, "batch": 256}
+configuration used in the paper ranks 12 of 24 (macro-F1 0.8718, best 0.8922)
